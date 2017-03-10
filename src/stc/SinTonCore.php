@@ -1,13 +1,13 @@
 <?php
 
-namespace core;
+namespace SinTonCore;
 
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\listener;
 
-class extends PluginBase implements listener{
+class SinTonCore extends PluginBase implements listener{
 
 public function onLoad(){
   $this->getServer->getLogger()->notice(">> SinTon-Core is loading...")
